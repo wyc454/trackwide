@@ -7,12 +7,12 @@ class PCBTraceCalculator:
     def __init__(self, root):
         self.root = root
         self.root.title("PCB印制电路板线宽计算器")
-        # 创建输入框和标签
-        ttk.Label(root, text="电流 (A):").grid(row=0, column=0, padx=5, pady=5)
+        # 创建输入框和对应量
+        ttk.Label(root, text="currency (A):").grid(row=0, column=0, padx=5, pady=5)
         self.current = ttk.Entry(root)
         self.current.grid(row=0, column=1, padx=5, pady=5)
 
-        ttk.Label(root, text="温升 (°C):").grid(row=1, column=0, padx=5, pady=5)
+        ttk.Label(root, text="improve temperature (°C):").grid(row=1, column=0, padx=5, pady=5)
         self.temp_rise = ttk.Entry(root)
         self.temp_rise.grid(row=1, column=1, padx=5, pady=5)
 
